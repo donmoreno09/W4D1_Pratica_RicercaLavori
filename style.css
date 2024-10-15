@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+}
+
+
+.search-container {
+    background-color: rgb(141, 221, 243);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(94, 53, 177); 
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid rgb(209, 196, 233);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    width: 100%;
+    background-color: rgb(77, 182, 172);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(38, 166, 154);
+}
+
+ul {
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: rgb(197, 202, 233);
+    color: rgb(55, 71, 79);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
